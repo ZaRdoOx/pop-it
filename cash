@@ -1,0 +1,7 @@
+while wait() do
+local args = {
+    [1] = "cash18"
+}
+
+game:GetService("ReplicatedStorage").Remotes.pickUpCash:FireServer(unpack(args))
+end
